@@ -3,7 +3,7 @@ CONTRACT:
 - SSOT: [STATE_OF_WORLD.md](STATE_OF_WORLD.md)
 - AUDIENCE: Agent, Dev
 - NATURE: Procedure
-- LAST_HARDENED: 2026-02-19
+- LAST_HARDENED: 2026-02-20
 - VERIFICATION_METHOD: [Claim check]
 -->
 # Antigravity Agent Manual (smol-fe)

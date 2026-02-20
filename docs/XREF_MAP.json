@@ -353,19 +353,6 @@
       "SKILL.md"
     ]
   },
-  ".agent/skills/remotion/SKILL.md": {
-    "path": ".agent/skills/remotion/SKILL.md",
-    "anchors": [
-      "remotion-skill",
-      "directory-structure",
-      "setup-if-not-already-set-up",
-      "workflow",
-      "prompting-guide-for-animations-the-claude-code-way",
-      "code-patterns"
-    ],
-    "links": [],
-    "fileRefs": []
-  },
   ".agent/skills/stellar-dev-skill/README.md": {
     "path": ".agent/skills/stellar-dev-skill/README.md",
     "anchors": [
