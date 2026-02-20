@@ -3,7 +3,7 @@ CONTRACT:
 - SSOT: [STATE_OF_WORLD.md](STATE_OF_WORLD.md)
 - AUDIENCE: Agent, Dev
 - NATURE: Procedure
-- LAST_HARDENED: 2026-02-19
+- LAST_HARDENED: 2026-02-20
 - VERIFICATION_METHOD: [Claim check]
 -->
 # Antigravity Agent Manual (smol-fe)
@@ -21,7 +21,7 @@ CONTRACT:
 ## ⚠️ Prime Directives
 1.  **Small Diffs**: One task, one focus. Verify often.
 2.  **No Secrets**: `.env` and `wrangler.toml` are the only places for vars.
-3.  **Ralph Loop**: Use `/ralph-loop` for high-risk auth/tx changes.
+3.  **Agent Loop**: Use `/agent-loop` for high-risk auth/tx changes.
 4.  **Fail-Closed Docs**: All technical facts are governed by `docs/STATE_OF_WORLD.md`. If a doc contradicts it, it is wrong.
 5.  **Sanitized**: Do not commit PII (Names, IPs).
 6.  **Everything Lab**: The `/labs` section is for innovation. If you build a new experiment, register it in `labs/registry.json`.
