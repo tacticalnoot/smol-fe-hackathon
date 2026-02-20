@@ -1,17 +1,17 @@
-# Ralph Loop Rule (Completion > Vibes)
-This workspace uses a Ralph-style loop for any non-trivial task:
+# Agent Loop Rule (Completion > Vibes)
+This workspace uses an Agent-style loop for any non-trivial task:
 
 **LOOP = Attempt → Verify → Record → Reflect → Attempt again** until success criteria passes.
-Ralph is not “try harder.” It’s **external verification gates** that prevent early exits.
+Agent Loop is not "try harder." It's **external verification gates** that prevent early exits.
 
-## When Ralph Loop is REQUIRED
+## When Agent Loop is REQUIRED
 - Anything touching: auth / passkeys / tx submission / relayers / money movement
-- “Works locally but fails in preview/prod”
+- "Works locally but fails in preview/prod"
 - Bugfixes with intermittent behavior
 - Large ambiguity / unknown root cause
 
 ## The ONLY acceptable stop condition
-You may stop *only* when the task’s **Success Criteria** are satisfied by validators:
+You may stop *only* when the task's **Success Criteria** are satisfied by validators:
 - build passes
 - tests pass (or explicit manual checklist passes)
 - repro no longer reproduces on target env (preview/prod if relevant)
@@ -25,6 +25,6 @@ You may stop *only* when the task’s **Success Criteria** are satisfied by vali
 
 ## Mandatory artifacts each iteration
 Write/update:
-- .agent/_reports/RALPH_PROGRESS.md (what failed, what changed, what verified)
-- .agent/_reports/RALPH_DIFFSTAT.txt (git diff --stat)
-- If tx/auth: .agent/_reports/RALPH_RISK.md (redacted risks + checks)
+- .agent/_reports/AGENT_PROGRESS.md (what failed, what changed, what verified)
+- .agent/_reports/AGENT_DIFFSTAT.txt (git diff --stat)
+- If tx/auth: .agent/_reports/AGENT_RISK.md (redacted risks + checks)
